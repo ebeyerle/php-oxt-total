@@ -46,7 +46,7 @@ $fields=isset($_SESSION['fields'])?$_SESSION['fields']:[];
 					//
 
 
-					const balance_total = data["Total"].balance;
+					const balance_total = 1000000000 - data["Total"].balance;
 					 console.log(balance_total);
 
 					const ratio = (balance_total / grand_total) * 100;
